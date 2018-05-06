@@ -2,7 +2,21 @@
 Este repositorio contiene el proyecto final de la asignatura de Lenguaje de marcas, FP DAW dual.
 ---
 
+---
+## *Documentación del proyecto*
 
+Una de las primeras partes es la documentación añadire una imagen en la carpeta de imagenes con los esbozos de la página principal para que se pueda ver la idea principal del proyecto.
+
+*Breve descripción de la idea:*
+Página con un titulo (diseño propio), menu de navegación en la parte superior derecha y justo debajo de este un slide social, la zona donde se encontraran las noticias ocupará aproximadamente un 70/80% de la página y habrá un aside dedicado a "anuncios", puede que utilice un footer donde añada algo más de información, pero es una idea que puede que sea descartada. 
+
+El fondo probablemente sea uno fijo estilo whatsapp, o lo que es lo mismo doodles de los temas de la página.
+
+*El tema de la página:* GEEKNEWS una pagina de noticias geek, o lo que es lo mismo frikadas desde el mundo del cine, cómic y videojuegos a infórmatica general, todo lo que pueda ser noticia para el secto más Geek.
+
+
+
+---
 ## *Enunciado del proyecto*
 
 ### **Objectiu final:** 
@@ -41,7 +55,8 @@ Este repositorio contiene el proyecto final de la asignatura de Lenguaje de marc
 > * La plantilla o pàgina de veure una sola notícia news1.html (news2.html és idèntica) ha de contenir una imatge i un vídeo de youtube responsive. 
                 (fins a 1 punt)
 > * Cada pàgina ha de contenir les etiquetes meta (amb open graph) per compartir títol, descripció, imatge (gran), nom de l'aplicació i url de la pàgina. 
-        (fins a 1 punt)
-> * Fins a + 2 punts: acabat final (o dit d'un altra forma: complir les especificacions del client o donar solucions elegants alternatives).
+                (fins a 1 punt)
+> * Acabat final (o dit d'un altra forma: complir les especificacions del client o donar solucions elegants alternatives).
+                (fins a 2 punts)
 
 ---
