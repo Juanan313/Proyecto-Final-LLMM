@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,58 +16,92 @@
     <script src="./js/jquery-3.3.1.js"></script>
     <script src="./js/news.js"></script>
 </head>
+
 <body class="card">
     <header class="card-header bg-secondary">
-        <h1>
+        <h1 class="col-md-4">
             GEEK NEWS
         </h1>
-        <nav id="menuNav" class="navbar navbar-expand-sm bg-light">
+        <nav id="menuNav" class="navbar navbar-expand-sm bg-light col-md-4">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-home"></i>Home </a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-github"></i>Github</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card"></i>About me</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-home"></i>Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-github"></i>Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-address-card"></i>About me</a>
+                </li>
             </ul>
         </nav>
     </header>
     <div class="row rowFix">
         <div class="offset-md-1"></div>
-    <main class="card-body col-md-8" id="contenedorPrincipal">
-            Contenido principal de la página, aquí se cargarán las noticias
-        <section>
-            ESTO ES UN SECTION! AQUI VAN LAS NOTICIAS
-        </section>
-        <section>
-            ESTO ES UN SECTION! AQUI VAN LAS NOTICIAS
-        </section>
-        <section>
-            ESTO ES UN SECTION! AQUI VAN LAS NOTICIAS
-        </section>
-        <section>
-                ESTO ES UN SECTION! AQUI VAN LAS NOTICIAS
+        <main class="card-body col-md-8" id="contenedorPrincipal">
+            <h2 id="tituloNoticias">Noticias del mundo Geek: tecnología, videjuegos, lo último en comic, cine y series, todo lo que puede interesarte
+                si eres uno de esos frikis que "le da a todo ;)"</h2>
+            <section>
+                <h2>En Build 2018 Microsoft se centra en la inteligencia artificial y la nube
+                    <br/> (y se olvida de Windows 10)</h2>
+                <p>Los desarrolladores siguen siendo parte fundamental de la estrategia de Microsoft, y la empresa quiere que
+                    todos ellos pongan su foco en un ámbito cada vez más prometedor: el de la inteligencia artificial. Es
+                    lo que han mostrado en la conferencia inaugural de Build 2018, su conferencia para desarrolladores. Allí
+                    hemos visto cómo el futuro está marcado por la conquista de la IA en todas las áreas. También hemos visto
+                    cómo Windows 10 queda relegado a un segundo plano absoluto.</p>
+
+                <article>
+                    <h3>La IA como base de soluciones de accesibilidad</h3>
+                    <p>La inteligencia artificial está cada vez más presente en todo tipo de ámbitos, pero en Microsoft nos
+                        hablaban hoy de un enfoque distinto centrado absolutamente en la accesibilidad y en soluciones que
+                        faciliten la vida de personas con ciertas discapacidades.</p>
+                    <p>Es el caso del lanzamiento en 2017 de Seeing AI, un sistema que permite que la cámara del móvil "describe"
+                        lo que ve a personas ciegas o con dificultades visuales severas. En Microsoft también hablaron de
+                        otros ejemplos como Helpicto, orientado a personas con autismo El sistema Alt Text de Microsoft Office
+                        es otro de esos desarrollos en los que la inteligencia artificial se centra en la accesibilidad.
+                        La idea es la de facilitar la inclusión de textos alternativos en nuestros documentos para describir
+                        las imágenes y gráficos que incluimos en ellos.</p>
+                </article>
             </section>
             <section>
-                ESTO ES UN SECTION! AQUI VAN LAS NOTICIAS
+                <h2 class="tituloNoticia">Tu móvil pasa a la pantalla de tu PC con 'Your Phone', que viva la magia del mirroring en Windows 10</h2>
+                <img src="./src/img/mirroingMobile.png" alt="mobileMirror" class="articleImg">
+                <article>    
+                <p>Microsoft ha presentado una nueva aplicación en su conferencia Build 2018: se trata de 'Your Phone' ('Tu
+                        Teléfono'), que permite hacer mirroring de la pantalla de nuestro smartphone Android o iOS y controlarlo
+                        con el ratón y teclado de nuestro PC con Windows 10. La herramienta permite acceder a los mensajes
+                        de texto, fotos y notificaciones que tenemos en nuestro móvil desde Windows 10: contestar a esos
+                        mensajes o arrastrar fotos de un dispositivo a otro será a partir de ahora mucho más fácil con esta
+                        herramienta.</p>
+                </article>        
+                Referencia: <a href="https://www.xataka.com/aplicaciones/tu-movil-pasa-a-la-pantalla-de-tu-pc-con-your-phone-que-viva-la-magia-del-mirroring">Xataka</a>
+                
             </section>
             <section>
-                ESTO ES UN SECTION! AQUI VAN LAS NOTICIAS
+                    <h2 class="tituloNoticia"><strong>Vengadores: Infinity War, 1.000 millones en 11 días</strong></h2>
+                    <img src="./src/img/vengadores-inifinity-war.jpg" alt="infinityWar" class="articleImg rounded mx-auto d-block">
+                <article>   
+                    <h3>Rompe un récord tras otro.</h3>
+                    <p>Ahora, como decimos, ha superado a "Star Wars: El despertar de la fuerza" como la película que menos ha tardado en alcanzar
+                        los mil millones de recaudación, empleando apenas 11 días en lograrlo. Con esa marca, en tan solo 11 jornadas, ya
+                        ha recaudado más que lo que generaron en total otros éxitos cinematográficos basados en los cómics como Wonder Woman,
+                        Batman v Superman: El amanecer de la justicia, Guardianes de la galaxia, X-Men: Días del futuro pasado y La Liga
+                        de la Justicia.</p>
+                </article>
+                Referencia: <a href="https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html">Tikitakas</a>
             </section>
-            <section>
-                    ESTO ES UN SECTION! AQUI VAN LAS NOTICIAS
-                </section>
-                <section>
-                    ESTO ES UN SECTION! AQUI VAN LAS NOTICIAS
-                </section>
-                <section>
-                    ESTO ES UN SECTION! AQUI VAN LAS NOTICIAS
-                </section>
-    </main>
-    <div class="offset-md-1"></div>
-    <aside id="anuncios" class="col-md-2">
-        Espacio asignado para anuncios
-    </aside>
-</div>    
-    <footer class="card-footer bg-secondary"> 
-        Posibles opciones de menú 
+        </main>
+        <div class="offset-md-1"></div>
+        <aside id="anuncios" class="col-md-2">
+            Espacio asignado para anuncios
+        </aside>
+    </div>
+    <footer class="card-footer bg-secondary position-sticky">
+        Posibles opciones de menú
     </footer>
 </body>
+
 </html>

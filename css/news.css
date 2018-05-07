@@ -2,17 +2,27 @@ body {
     background: url(../src/img/super_hero_whatsapp_background_by_x_ama-d8fr7iz.jpg);
 }
 
+/*-----MENU NAVEGACION/Header-----*/
+
+header{
+    height: 110px;
+}
 
 header h1{
     font-family: "AVENGEANCE MIGHTIEST AVENGER";
     color: rgba(0, 0, 0, 0.808);
+    /*-----TextShadow para hacer el efecto contorno de las letras del titulo-----*/
     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
-/*-----MENU NAVEGACION-----*/
 
 #menuNav{
     font-family: 'acmesa';
+    float: right;
+    top: -63px;
+    border-radius: 5px;
+    margin-right: 0px !important;
 }
+
 
 
 
@@ -21,7 +31,11 @@ header h1{
 #anuncios {
     background: url(../src/img/doodles\ gaming.jpg);
     background-size: 100%;
-    padding-right: 0px !important;
+    height: 440px;
+    top: 170px;
+    border-radius: 5px;
+    color: yellow;
+    text-shadow: 2px 2px 0px black;
 }
 
 .rowFix {
@@ -36,8 +50,30 @@ header h1{
     padding: 10px;
     margin-top: 25px;
     margin-bottom: 25px;
-    box-shadow: 0px 2px 5px black;
+    box-shadow: 3px 2px 5px black;
     border-radius: 5px;
+}
+
+section {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px;
+    margin-top: 20px;
+    box-shadow: 2px 3px 2px gray;
+}
+
+h2.tituloNoticia{
+    top: 600px;
+    position: relative;
+    float: right;
+    color: white;
+    background-color: #80808042;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.articleImg{
 }
 
 /* -------- FUENTES --------*/
