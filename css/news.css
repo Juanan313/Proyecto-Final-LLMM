@@ -31,7 +31,7 @@ header h1{
 #anuncios {
     background: url(../src/img/doodles\ gaming.jpg);
     background-size: 100%;
-    height: 440px;
+    height: 44vh;
     top: 170px;
     border-radius: 5px;
     color: yellow;
@@ -63,17 +63,18 @@ section {
     box-shadow: 2px 3px 2px gray;
 }
 
-h2.tituloNoticia{
-    top: 600px;
-    position: relative;
-    float: right;
-    color: white;
+ h2.tituloNoticia{
+    /* top: 600px; */
+    /* position: relative; */
+    /* float: right; */
+    /* color: white; */
     background-color: #80808042;
     padding: 5px;
     margin-right: 15px;
-}
+} 
 
 .articleImg{
+    width: 60%;
 }
 
 /* -------- FUENTES --------*/
@@ -88,4 +89,36 @@ h2.tituloNoticia{
     font-family: 'acmesa';
     font-weight: normal;
     src: url('./fonts/acmesa.TTF');
+}
+
+/* ----- MEDIAQUERIES ----- */
+
+@media only screen and (max-width: 650px) {
+    /* For mobile phones: */
+    footer {
+        display: none;
+    }
+
+    #contenedorPrincipal{
+        background: none;
+        box-shadow: none;
+    }
+
+    section {
+        background-color: rgba(240, 248, 255, 0.603); 
+    }
+
+    #anuncios{
+        /* height: auto; */
+        /* margin: 0px; */
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    /* For tablets: */
+    
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
 }
