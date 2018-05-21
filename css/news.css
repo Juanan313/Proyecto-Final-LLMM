@@ -5,7 +5,9 @@ body {
 /*-----MENU NAVEGACION/Header-----*/
 
 header{
-    height: 110px;
+    height: 10vh;
+    padding: 0px !important;
+    
 }
 
 header h1{
@@ -13,16 +15,60 @@ header h1{
     color: rgba(0, 0, 0, 0.808);
     /*-----TextShadow para hacer el efecto contorno de las letras del titulo-----*/
     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    margin-bottom: 0px !important;
 }
 
-#menuNav{
+/* #menuNav{
     font-family: 'acmesa';
     float: right;
     top: -63px;
     border-radius: 5px;
     margin-right: 0px !important;
+} */
+
+/* --- Menu Navegación ---*/
+
+#menuNav{
+    padding: 0px;
+    margin: 0px;
+    background: rgba(101, 117, 160, 0.863);
+    font-family: 'acmesa';
+    font-size: 13px;
 }
 
+#menuNav ul{
+    list-style: none;
+    margin: 0px;
+}
+
+#menuNav ul li{
+    float: left;
+    margin-right: 15px;
+}
+
+#menuNav ul li a{
+    color: white;
+    display: block;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+
+}
+
+#menuNav ul li a:hover{
+    background-color: rgba(224, 49, 55, 0.774);
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: all 300ms;
+}
+
+.linkActivo{
+    background-color: rgba(255, 164, 167, 0.774);
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 3px solid gray;
+}
 
 
 

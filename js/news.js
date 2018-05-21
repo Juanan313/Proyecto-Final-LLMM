@@ -24,11 +24,7 @@ window.onload = function () {
 
 /* ---- TRATAR DATOS JSON ----*/
 
-prepararEntradillas() {
-
-    $(NOTICIAS).each({
-
-    });
-
+function prepararEntradillas() {
+    
 }
 
