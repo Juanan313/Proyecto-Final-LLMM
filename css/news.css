@@ -120,10 +120,11 @@ section {
 } 
 
 .articleImg{
-    width: 60%;
-    display: block;
-    margin: auto;
+    width: 35%;
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
 }
+.image-container{text-align:center}
 
 /* -------- FUENTES --------*/
 

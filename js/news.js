@@ -33,6 +33,14 @@ window.onload = function () {
     $("#pobre").on("click", function () {
         prepararEntradillas();
     });
+
+    // on scroll down 
+    $(document).scroll(function() {
+        var y = $(this).scrollTop();
+        if (y > 800) {
+          prepararEntradillas();
+        } 
+      });
 };
 
 /* ---- TRATAR DATOS JSON ----*/
@@ -61,20 +69,24 @@ function prepararEntradilla(noticia) {
 
     var entradilla = $("<section></section>");
     
-    var titulo = $("</h2>").addClass("tituloNoticia").append(noticia.Titulo);
+    var titulo = $("<h2/>").addClass("tituloNoticia").append(noticia.Titulo);
     titulo.appendTo(entradilla);
 
-    var postTitulo = $("</h3>").append(noticia.PostTiutlo);
-    postTitulo.appendTo(entradilla);
-
-    var fecha = $("</div>").addClass("fechaNoticia").append(noticia.Fecha);
+    var fecha = $("<div/>").addClass("fechaNoticia").append(noticia.Fecha);
     fecha.appendTo(entradilla);
     
-    var imagen = "<img src='"+noticia.Imagen+"' alt='"+noticia.Titulo+"' class='articleImg'>";
+    var imagen = "<img src='"+noticia.Imagen+"' alt='"+noticia.Titulo+"' class='articleImg rounded mx-auto d-block'>";
     entradilla.append(imagen);
+
+    var article = $("<article/>");
+
+    var postTitulo = $("<h3/>").append(noticia.PostTiutlo);
+    postTitulo.appendTo(article);
     
-    var textoEntradilla = $("</p>").append(noticia.Entradilla);
-    textoEntradilla.appendTo(entradilla);
+    var textoEntradilla = $("</p>").append(noticia.Entradilla).addClass("text-justify");
+    textoEntradilla.appendTo(article);
+
+    article.appendTo(entradilla);
 
     $("main").append(entradilla);
 
