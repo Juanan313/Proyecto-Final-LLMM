@@ -6,14 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Noticias</title>
+
+    <!-- Jquery, siempre conviene cargarlo el primero -->
+    <script src="./js/jquery-3.3.1.js"></script>
+
     <!--Estilos e iconos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/news.css">
     <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <!--Imports de pagina principal de JS y frameworks-->
-    <!-- <script src="./css/bootstrap/js/bootstrap.min.js"></script>
-    <script src="./js/jquery-ui/jquery-ui.js"></script> -->
-    <script src="./js/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <!-- <script src="./css/bootstrap/js/bootstrap.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- <script src="./js/jquery-ui/jquery-ui.js"></script>  -->
+
     <script src="./js/news.js"></script>
 </head>
 
@@ -39,6 +47,41 @@
             </ul>
         </nav>
     </header>
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+    
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="https://www.w3schools.com/bootstrap/la.jpg" alt="Los Angeles">
+              </div>
+    
+              <div class="item">
+                <img src="https://www.w3schools.com/bootstrap/la.jpg" alt="Chicago">
+              </div>
+    
+              <div class="item">
+                <img src="https://www.w3schools.com/bootstrap/ny.jpg" alt="New York">
+              </div>
+            </div>
+    
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
     
     <div class="row rowFix">
         <div class="offset-md-1"></div>
@@ -71,22 +114,22 @@
             <section>
                 <h2 class="tituloNoticia">Tu móvil pasa a la pantalla de tu PC con 'Your Phone', que viva la magia del mirroring en Windows 10</h2>
                 <img src="./src/img/mirroingMobile.png" alt="mobileMirror" class="articleImg">
-                <article>    
+                <article>
                 <p>Microsoft ha presentado una nueva aplicación en su conferencia Build 2018: se trata de 'Your Phone' ('Tu
                         Teléfono'), que permite hacer mirroring de la pantalla de nuestro smartphone Android o iOS y controlarlo
                         con el ratón y teclado de nuestro PC con Windows 10. La herramienta permite acceder a los mensajes
                         de texto, fotos y notificaciones que tenemos en nuestro móvil desde Windows 10: contestar a esos
                         mensajes o arrastrar fotos de un dispositivo a otro será a partir de ahora mucho más fácil con esta
                         herramienta.</p>
-                </article>        
+                </article>
                 Referencia: <a href="https://www.xataka.com/aplicaciones/tu-movil-pasa-a-la-pantalla-de-tu-pc-con-your-phone-que-viva-la-magia-del-mirroring">Xataka</a>
-                
+
             </section>
             <section class="d-inline-block">
                     <h2 class="tituloNoticia"><strong>Vengadores: Infinity War, 1.000 millones en 11 días</strong></h2>
-                
+
                     <img src="./src/img/vengadores-inifinity-war.jpg" alt="infinityWar" class="articleImg rounded mx-auto d-block pull-left">
-                <article class="m-3">   
+                <article class="m-3">
                     <h3>Rompe un récord tras otro.</h3>
                     <p class="text-justify">Ahora, como decimos, ha superado a "Star Wars: El despertar de la fuerza" como la película que menos ha tardado en alcanzar
                         los mil millones de recaudación, empleando apenas 11 días en lograrlo. Con esa marca, en tan solo 11 jornadas, ya
@@ -96,9 +139,9 @@
                 </article>
                 Referencia: <a href="https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html">Tikitakas</a>
             </section>
-            
+
         </main>
-        <div class="offset-md-1"></div> 
+        <div class="offset-md-1"></div>
         <aside id="anuncios" class="col-md-2">
             Espacio asignado para anuncios
         </aside>
