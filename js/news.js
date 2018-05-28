@@ -45,7 +45,7 @@ function prepararEntradillas() {
             "Titulo: "+titulo+
             ", Entradilla: "+textoEntradilla
         )
-
+        prepararEntradilla(noticia);
 
     });
 }
@@ -56,11 +56,17 @@ function prepararEntradilla(noticia) {
     
 
     var entradilla = $("<section></section>");
-    var titulo = $("<h1></h1>").addClass("tituloNoticia").append(noticia.Titulo).appendTo(entradilla);
+    
+    var titulo = $("<h1></h1>").addClass("tituloNoticia").append(noticia.Titulo);
+    titulo.appendTo(entradilla);
+    
     var imagen = "<img src='"+noticia.Imagen+"' alt='"+noticia.Titulo+"'>";
     entradilla.append(imagen);
-    var textoEntradilla = $("<p></p>").append(noticia.Entradilla);
     
+    var textoEntradilla = $("<p></p>").append(noticia.Entradilla);
+    textoEntradilla.appendTo(entradilla);
+
+    $("main").append(entradilla);
 
 }
 
