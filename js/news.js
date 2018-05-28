@@ -19,12 +19,48 @@ window.onload = function () {
         }
     });
 
+    jQuery(function () {
+        var page = location.pathname.split('/').pop();
+        alert(page)
+        $('#nav li a[href="' + page + '"]').addClass('linkActivo')
+        console.log($('#nav li a[href="' + page + '"]'))
+    })
 
+    $("#pobre").on("click", function () {
+        prepararEntradillas();
+    });
 };
 
 /* ---- TRATAR DATOS JSON ----*/
 
 function prepararEntradillas() {
     
+    $(NOTICIAS).each(function(i, noticia) {
+        
+
+        var titulo = noticia.Titulo;
+        var textoEntradilla = noticia.Entradilla;
+
+        console.log(
+            "Titulo: "+titulo+
+            ", Entradilla: "+textoEntradilla
+        )
+
+
+    });
+}
+
+function prepararEntradilla(noticia) {
+    
+    
+    
+
+    var entradilla = $("<section></section>");
+    var titulo = $("<h1></h1>").addClass("tituloNoticia").append(noticia.Titulo).appendTo(entradilla);
+    var imagen = "<img src='"+noticia.Imagen+"' alt='"+noticia.Titulo+"'>";
+    entradilla.append(imagen);
+    var textoEntradilla = $("<p></p>").append(noticia.Entradilla);
+    
+
 }
 
