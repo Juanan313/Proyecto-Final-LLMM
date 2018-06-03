@@ -1,6 +1,7 @@
 // Variable constante donde se almacenarán los datos del json
 var NOTICIAS;
 var NOTICIAS_POR_CARGA = 3;
+var PAGINA;
 
 var proximaNoticia = 0;
 var primeraCarga = true;
@@ -26,12 +27,11 @@ window.onload = function () {
     //     NOTICIAS = data;
     // });
 
-    // jQuery(function () {
-    //     var page = location.pathname.split('/').pop();
-    //     alert(page)
-    //     $('#nav li a[href="' + page + '"]').addClass('linkActivo')
-    //     console.log($('#nav li a[href="' + page + '"]'))
-    // })
+     jQuery(function () {
+        var page = location.pathname.split('/').pop();
+        PAGINA = page;
+        
+     })
 
     // $("#pobre").on("click", function () {
     //     alert('ya no quedan más noticias');
@@ -61,20 +61,12 @@ window.onload = function () {
 
 function cargarNoticias() {
 
-    // $(NOTICIAS).each(function(i, noticia) {
 
-    //     var titulo = noticia.Titulo;
-    //     var textoEntradilla = noticia.Entradilla;
-
-    //     console.log(
-    //         "Titulo: "+titulo+
-    //         ", Entradilla: "+textoEntradilla
-    //     )
-    //     prepararEntradilla(noticia);
-
-    // });
+    // Si la página no es la página principal la función parará aqui por lo que no cargará las entradillas.
+    if ( PAGINA != 'news.html') { return 0}; 
 
     var contadorNoticias = NOTICIAS.length;
+
     // if (primeraCarga) {
     //     var proximaNoticia = contadorNoticias -1;
 
@@ -123,10 +115,11 @@ function prepararEntradilla(noticia) {
     var textoEntradilla = $("</p>").append(noticia.Entradilla).addClass("text-justify");
     textoEntradilla.appendTo(article);
     article.addClass("col-md-7 col-xs-12")
+    var referencia = "<a href='"+noticia.Referencia.url+"'>"+noticia.Referencia.pagina+"</a>"
+    $("<p>Referencia: "+referencia+"</p>").appendTo(article);
     article.appendTo(entradilla);
 
-    var referencia = "<a href='"+noticia.referencia+"'></a>"
-
+    
     $("main").append(entradilla.addClass("d-inline-block"));
 
 }
