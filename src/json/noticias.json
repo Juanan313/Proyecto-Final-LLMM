@@ -2,7 +2,7 @@
 "Noticias" : [
     {
     "idNoticia": 1,
-    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 1",
+    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días",
     "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",
     "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
     "Fecha": "06/05/2018",
@@ -61,79 +61,79 @@
     "Referencia": "https://vandal.elespanol.com/noticia/1350708344/fallout-76-prepara-su-campana-publicitaria-para-el-e3-2018/"
 },
 {
-    "idNoticia": 1,
-    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 5",
-    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",  
-    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
-    "Fecha": "06/05/2018",
-    "Autor": "M.Méndez",
-    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
-    "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
+    "idNoticia": 5,
+    "Titulo": "Marvel anunció nuevos cómics de los Avengers prehistóricos",
+    "PostTiutlo": "La casa editorial anunció nuevos tomos de cómics que contarán la historias de los orígenes de los superhéroes más emblemáticos.",  
+    "Entradilla": "Mientras todos los fanáticos esperan nuevo contenido de “Avengers: Infinity War”, Marvel realizó el anuncio de un nuevo lote de cómics. Se trata de los Avengers prehistóricos que contarán los orígenes de los emblemáticos superhéroes.",
+    "Fecha": "08/04/2018",
+    "Autor": "Antonio Mendez",
+    "Noticia": "<strong>Odin</strong> ─padre de Thor─, <strong>Gosth Rider, Black Panther, Doctor Strange, Phoenix y Hulk</strong>, son algunos de los protagonistas de este nuevo hilo argumental. La primera edición de esta saga llamada Marvel Legacy será dedicada a Gosth Rider. La historia sucederá en año 1.000.000 A.C. y el héroe fantasma montará un mamut en llamas en vez de una motocicleta.<br/>Jason Aaron y Ed McGuinnes serán los responsables de la reedición de las historietas. Además, el editor Tom Breevoort comentó recientemente en una entrevista a Comic Book Resource que “esta historia tendrá a los héroes más poderosos de la Tierra y sus predecesores prehistóricos”.<br/>La primera publicación de Marvel Legacy saldrá a la venta en Mayo. De momento, los fanáticos de Marvel ya cuentan los días para el estreno de <strong>'Avengers: Infinity War'</strong> que llega a los cines en Perú el 26 de abril.",
+    "Imagen": "http://e.rpp-noticias.io/normal/2018/04/08/413241_590725.jpg",
     "Video": {
-        "boolean" : true,
-        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+        "boolean" : false,
+        "url" : ""
     },
     "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
 },
 {
-    "idNoticia": 1,
-    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 6",
-    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",  
-    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
-    "Fecha": "06/05/2018",
-    "Autor": "M.Méndez",
-    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
-    "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
+    "idNoticia": 6,
+    "Titulo": "Usar videojuegos en el aula podría beneficiar el rendimiento escolar",
+    "PostTiutlo": "Investigadores de la Universidad de Zaragoza estudian si la 'gamificación' y los videojuegos activos mejoran el aprendizaje.",  
+    "Entradilla": "Aprender con videojuegos en el colegio es más divertido y motiva más a los alumnos. Utilizar la 'gamificación' en clase promueve su participación activa. Esta es una primera valoración de un proyecto de investigación que están desarrollando un grupo de profesores e investigadores de la Universidad de Zaragoza. El uso de videojuegos activos (aquellos en los que hay que mover todo el cuerpo) y de estrategias de 'gamificación' (utilizar elementos de los juegos en entornos no lúdicos) es novedoso en los colegios. Y apenas existe investigación científica que pruebe sus beneficios. Esta es una de las primeras que se realizan a nivel internacional, señalan sus promotores.",
+    "Fecha": "03/06/2018",
+    "Autor": "P.Figols",
+    "Noticia": "Un equipo interdisciplinar de investigadores en educación física, expresión corporal y neurociencia ha diseñado una unidad didáctica que incluye un videojuego activo y el método de 'gamificación'. Durante este curso han probado este proyecto en cuatro colegios de Zaragoza y Huesca, con la participación de 420 alumnos de 5º y 6º de Primaria. Son centros diferentes en cuanto a tamaño, características y tipo de alumnado: San Vicente, Pío XII y Santa Rosa de Huesca y Sagrado Corazón de Jesús de Zaragoza. Ahora están analizando los datos y en los próximos dos meses prevén tener los resultados.<br/>Cada vez hay un mayor uso de videojuegos pasivos por parte de niños y jóvenes, y un alto índice de sedentarismo. Nos planteamos qué pasaría si utilizáramos en clase elementos de 'gamificación' y videojuegos activos. Nuestro objetivo es analizar empíricamente si pueden beneficiar el rendimiento académico, la activación cerebral, el esfuerzo físico percibido, la motivación hacia la actividad física, la actitud hacia un ocio digital activo o las necesidades psicológicas básicas, explica Alejandro Quintas, integrante del proyecto, maestro de Educación Física y profesor de Didáctica de la Educación Física en la Facultad de Ciencias Humanas y de la Educación de Huesca.<br/>¿Cómo lo han hecho? Han creado una unidad didáctica interdisciplinar de educación física y música. Usan videojuegos activos como 'Just dance now' para promocionar el ejercicio físico e incentivar el baile. Y utilizan estrategias de 'gamificación', como sistemas de puntos o plantear retos, tanto individuales como colectivos, con ayuda de la aplicación 'ClassDojo'. En los colegios han trabajado durante un mes y medio con dos grupos diferentes: unos seguían la clase con el sistema convencional y otros usaban estos juegos. Durante el proceso han medido distintas variables y han entrevistado a profesores y alumnos.<br/>Los primeros comentarios de los maestros es que usando la unidad didáctica 'gamificada' los alumnos se han implicado más y estaban más motivados. Los alumnos eran más autónomos y mostraban más predisposición al aprendizaje. Además de la motivación, estamos analizando más parámetros: si hay una activación diferente del cerebro, la fatiga física percibida, si hay un cambio de actitud de los participantes hacia un ocio digital activo, si hay cambios en los resultados académicos, etc., señala <strong>Alejandro Quintas</strong>.",
+    "Imagen": "https://static01.heraldo.es/uploads/imagenes/8col/2018/05/28/_1_3d647c62.jpg?f4bac60ab83f9cd8ec50e6127c5a0968",
     "Video": {
-        "boolean" : true,
-        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+        "boolean" : false,
+        "url" : ""
     },
-    "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
+    "Referencia": "https://www.heraldo.es/noticias/aragon/2018/05/29/usar-videojuegos-aula-podria-beneficiar-rendimiento-escolar-1246308-300.html"
 },
 {
-    "idNoticia": 1,
-    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 7",
-    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",  
-    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
-    "Fecha": "06/05/2018",
-    "Autor": "M.Méndez",
-    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
-    "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
+    "idNoticia": 7,
+    "Titulo": "Shadowrun Crossfire, Catalyst relanza su juego de construcción de mazos",
+    "PostTiutlo": "Shadowrun Crossfire: Prime Runner Edition, aprendiendo de Dragonfire",  
+    "Entradilla": "Shadowrun Crossfire: Prime Runner Edition es un juego de cartas cooperativo de construcción de mazos, diseñado para 2 a 5 jugadores a partir de 13 años de edad. Ambientado en el “Sexto mundo” los jugadores toman el papel de un equipo de Shadowrunners que deberán de cumplir misiones de diverso tipo para sobrevivir y ganarse el pan",
+    "Fecha": "29/05/2018",
+    "Autor": "Daniel Mayoralas",
+    "Noticia": "Shadowrun Crossfire: Prime Runner Edition cuenta con la misma mecánica básica y el mismo juego cooperativo que la versión original, pero con pequeños cambios en las reglas y las cartas de los personajes para hacer más sencillo el juego y facilitar que los nuevos jugadores se pongan al día. También se han añadido misiones adicionales a la caja básica para dar a los jugadores más opciones.<br/> Catalyst ha aprendido algunas lecciones de la versión fantástica que publicó del sistema, Dragonfire, y las ha implementado en este nuevo Shadowrun Crossfire, a la vez que se ha asegurado de que los jugadores que ya están familiarizados con el juego no se vean perturbados por cambios importantes. La nueva edición incluirá ilustraciones nuevas y una selección del juego original.<br/> Shadowrun Crossfire: Prime Runner Edition está recomendado a partir de 13 años, las partidas tienen una duración de una o dos horas y se desarrolla en un modo campaña. Catalyst lanzó Shadowrun Crossfire en 2014 y el año pasado publicó una nueva versión del juego ambientada en el universo de D&D titulada Dragonfire. El juego llegará al mercado este verano en una edición en inglés a un precio de unos 60 dólares.<br/> ",
+    "Imagen": "https://ludonoticias.com/wp-content/uploads/2018/05/Shadowrun-Crossfire-Logo-696x387.jpg",
     "Video": {
-        "boolean" : true,
-        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+        "boolean" : false,
+        "url" : ""
     },
-    "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
+    "Referencia": "https://ludonoticias.com/2018/05/29/shadowrun-crossfire-catalyst-nueva-edicion/"
 } ,
 {
-    "idNoticia": 1,
-    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 8",
-    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",  
-    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
-    "Fecha": "06/05/2018",
-    "Autor": "M.Méndez",
-    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
-    "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
+    "idNoticia": 8,
+    "Titulo": "La final de la Overwatch League agota sus entradas",
+    "PostTiutlo": "La competición tendrá lugar en el Barclays Center de Nueva York.",  
+    "Entradilla": "<strong>Blizzard</strong> ha anunciado que las entradas para la final de la <strong>Overwatch</strong> League se han agotado. El evento tendrá lugar en el Barclays Center de Nueva York, el estadio de los Brooklyn Nets de la NBA. Con <strong>más de 20.000 entradas vendidas</strong>, es el mayor evento de eSports hasta el momento.",
+    "Fecha": "03/06/2018",
+    "Autor": "Daniel Escandell",
+    "Noticia": "Desde Blizzard han expresado su satisfacción. \"Sabíamos que los fans de la liga de Overwatch eran increíbles y entusiastas, pero esto es mucho más\", ha dicho Nat Nanzer, representante de la competición. Esperan que el evento tenga millones de espectadores en línea.",
+    "Imagen": "http://www.barclayscenter.com/assets/img/910x350-Overwatch-League-2018-ed08e0c550.jpg",
     "Video": {
         "boolean" : true,
-        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+        "url" : "<iframe src='https://www.youtube.com/embed/Kd-dju1nJ4c' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
     "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
 },
 {
-    "idNoticia": 1,
-    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 9",
-    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",  
-    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
-    "Fecha": "06/05/2018",
-    "Autor": "M.Méndez",
-    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
+    "idNoticia": 9,
+    "Titulo": "¿Eres usuario de Facebook? La OCU pide 200 euros para ti en una demanda colectiva",
+    "PostTiutlo": "Tras el escándalo del uso fraudulento de datos, la organización de consumo ha presentado un escrito en el que representa a los 26 millones de personas en España que tienen cuenta en la red social de Mark Zuckerberg",  
+    "Entradilla": "La Organización de Consumidores y Usuarios (OCU), junto con sus organizaciones hermanas de Portugal, Bélgica e Italia, han decidido lanzar una demanda colectiva contra Facebook por el escándalo <strong>Cambridge Analytica</strong>. Pero no se limita solo a los afectados directos, que en España ascienden a 130.000 personas, sino a todos los usuarios de la red social creada por Mark Zuckerberg en nuestro país, que son 26 millones.",
+    "Fecha": "01/06/2018",
+    "Autor": "@abc_tecnologia",
+    "Noticia": "En la reclamación, la OCU pide al menos 200 euros para cada uno de ellos, ya que la organización considera que, «al haber permitido una gran recopilación e intercambio de datos de sus usuarios sin que estos hayan sido informados ni expresado su conformidad expresa, Facebook ha infringido la Ley de Protección de datos». «El escándalo de Cambridge Analytica es solo un ejemplo de un modelo de negocio mucho más amplio por parte de Facebook, en el que los datos se recopilan y se utilizan sin que los usuarios hayan dado su consentimiento expreso ni hayan sido informados al respecto», afirman desde OCU.<br/>Después de la reunión de Zuckerberg con el Parlamento Europeo en Bruselas, que la organización tacha de «farsa decepcionante», la OCU afirma que Facebook reconoció que «la información personal del usuario se ha compartido de manera incorrecta», por lo que la organización ve claro que la red social no tiene ninguna intención de compensar a los usuarios por el uso indebido de sus datos.<br/>Para que los usuarios de Facebook puedan estar informados sobre los avances de esta acción, OCU ha abierto una campaña en su página web: www.misdatossonmios.org, en la que también solicita el apoyo de los consumidores para impedir que las empresas puedan seguir disponiendo de sus datos sin su consentimiento y utilizarlos en su propio beneficio.<br/>«La protección de los datos y la privacidad de los usuarios es una prioridad para nosotros y trabajamos constantemente para identificar y solucionar cualquier problema. En base a la información disponible en este momento, no hay evidencias de que los datos sobre usuarios no estadounidenses, incluidos los usuarios españoles, se hayan compartido con Cambridge Analytica», aseguran a ABC fuentes de la compañía norteamericana.</br>La firma tecnológica alega que la aplicación «This is your digital life» -«Esta es tu vida digital», en español- empleada por los analistas que trabajaron con el gabinete de Donald Trump, presidente de EE.UU. obtuvo la información de los usaurios que decidieron instalarla, por lo que asegura que no se trató de una violación de los datos.",
     "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
     "Video": {
         "boolean" : true,
-        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+        "url" : "<iframe src=\"https://www.youtube.com/embed/7831NGClsrM\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
     },
-    "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
+    "Referencia": "http://www.abc.es/tecnologia/redes/abci-cambridge-analytica-eres-usuario-facebook-pide-200-euros-para-demanda-colectiva-201805301601_noticia.html"
 }
 ]
 }
