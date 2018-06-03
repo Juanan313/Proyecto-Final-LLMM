@@ -33,17 +33,24 @@ window.onload = function () {
     //     console.log($('#nav li a[href="' + page + '"]'))
     // })
 
-    $("#pobre").on("click", function () {
-        alert('ya no quedan más noticias');
-    });
+    // $("#pobre").on("click", function () {
+    //     alert('ya no quedan más noticias');
+    // });
 
     // on scroll down 
-    $(document).scroll(function() {
-        var y = $(this).scrollTop();
-        if (y > 800) {
+    // $(document).scroll(function() {
+    //     var y = $(this).scrollTop();
+    //     if (y > 1000) {
+    //         cargarNoticias();
+    //     } 
+    //   });
+
+    $(window).scroll(function() {
+        if($(window).scrollTop() + $(window).height() == $(document).height()) {
             cargarNoticias();
-        } 
-      });
+
+        }
+     });
 
     $("#cargarMas").on("click", function() {
         cargarNoticias();
@@ -66,25 +73,30 @@ function cargarNoticias() {
     //     prepararEntradilla(noticia);
 
     // });
-    if (primeraCarga) {
-        var contadorNoticias = NOTICIAS.length;
 
-        primeraCarga = false;
-    }
+    var contadorNoticias = NOTICIAS.length;
+    // if (primeraCarga) {
+    //     var proximaNoticia = contadorNoticias -1;
+
+    //     primeraCarga = false;
+    // }
     
     var cargandoNoticias = false;
     var i = 0;
-    var proximaNoticia = contadorNoticias -1;
+   
 
-    while (i < contadorNoticias && i < NOTICIAS_POR_CARGA ) {
-        
-        $("#loading").fadeIn();
-        setTimeout(prepararEntradilla(NOTICIAS[proximaNoticia]), 15000)
-        $("#loading").fadeOut();
+    while (proximaNoticia < contadorNoticias && i < NOTICIAS_POR_CARGA ) {
+
+        prepararEntradilla(NOTICIAS[proximaNoticia]);
         
         i ++;
-        proximaNoticia --;
+        proximaNoticia ++;
     } 
+
+    if (proximaNoticia >= contadorNoticias) {
+        $("#loading").fadeIn();
+        $("#loading").fadeOut();
+    }
 }
 
 function prepararEntradilla(noticia) {
@@ -94,10 +106,10 @@ function prepararEntradilla(noticia) {
 
     var entradilla = $("<section></section>");
     
-    var titulo = $("<h2/>").addClass("tituloNoticia").append(noticia.Titulo);
+    var titulo = $("<h2/>").addClass("tituloNoticia").append("<strong>"+noticia.Titulo+"</strong>");
     titulo.appendTo(entradilla);
 
-    var fecha = $("<div/>").addClass("fechaNoticia").append($("</p>").append(noticia.Fecha).addClass("label label-default"));
+    var fecha = $("<div/>").addClass("fechaNoticia lb-md").append($("</p>").append(noticia.Fecha+"/ "+noticia.Autor).addClass("label label-default"));
     fecha.appendTo(entradilla);
     
     var imagen = "<img src='"+noticia.Imagen+"' alt='"+noticia.Titulo+"' class='articleImg rounded mx-auto d-block pull-left'>";
@@ -110,7 +122,7 @@ function prepararEntradilla(noticia) {
     
     var textoEntradilla = $("</p>").append(noticia.Entradilla).addClass("text-justify");
     textoEntradilla.appendTo(article);
-    article.addClass("col-xs-7")
+    article.addClass("col-md-7 col-xs-12")
     article.appendTo(entradilla);
 
     $("main").append(entradilla.addClass("d-inline-block"));
