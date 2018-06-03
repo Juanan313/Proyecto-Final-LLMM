@@ -1,6 +1,9 @@
 // Variable constante donde se almacenarán los datos del json
 var NOTICIAS;
+var NOTICIAS_POR_CARGA = 3;
 
+var proximaNoticia = 0;
+var primeraCarga = true;
 /*--- Función onload para cargar todo los eventos y las llamadas a las funciones -----*/
 window.onload = function () {
     // prueba de que jquery carga correctamente
@@ -31,35 +34,57 @@ window.onload = function () {
     // })
 
     $("#pobre").on("click", function () {
-        prepararEntradillas();
+        alert('ya no quedan más noticias');
     });
 
     // on scroll down 
     $(document).scroll(function() {
         var y = $(this).scrollTop();
         if (y > 800) {
-          prepararEntradillas();
+            cargarNoticias();
         } 
       });
+
+    $("#cargarMas").on("click", function() {
+        cargarNoticias();
+    })
 };
 
 /* ---- TRATAR DATOS JSON ----*/
 
-function prepararEntradillas() {
+function cargarNoticias() {
+
+    // $(NOTICIAS).each(function(i, noticia) {
+
+    //     var titulo = noticia.Titulo;
+    //     var textoEntradilla = noticia.Entradilla;
+
+    //     console.log(
+    //         "Titulo: "+titulo+
+    //         ", Entradilla: "+textoEntradilla
+    //     )
+    //     prepararEntradilla(noticia);
+
+    // });
+    if (primeraCarga) {
+        var contadorNoticias = NOTICIAS.length;
+
+        primeraCarga = false;
+    }
     
-    $(NOTICIAS).each(function(i, noticia) {
+    var cargandoNoticias = false;
+    var i = 0;
+    var proximaNoticia = contadorNoticias -1;
+
+    while (i < contadorNoticias && i < NOTICIAS_POR_CARGA ) {
         
-
-        var titulo = noticia.Titulo;
-        var textoEntradilla = noticia.Entradilla;
-
-        console.log(
-            "Titulo: "+titulo+
-            ", Entradilla: "+textoEntradilla
-        )
-        prepararEntradilla(noticia);
-
-    });
+        $("#loading").fadeIn();
+        setTimeout(prepararEntradilla(NOTICIAS[proximaNoticia]), 15000)
+        $("#loading").fadeOut();
+        
+        i ++;
+        proximaNoticia --;
+    } 
 }
 
 function prepararEntradilla(noticia) {
@@ -72,10 +97,10 @@ function prepararEntradilla(noticia) {
     var titulo = $("<h2/>").addClass("tituloNoticia").append(noticia.Titulo);
     titulo.appendTo(entradilla);
 
-    var fecha = $("<div/>").addClass("fechaNoticia").append(noticia.Fecha);
+    var fecha = $("<div/>").addClass("fechaNoticia").append($("</p>").append(noticia.Fecha).addClass("label label-default"));
     fecha.appendTo(entradilla);
     
-    var imagen = "<img src='"+noticia.Imagen+"' alt='"+noticia.Titulo+"' class='articleImg rounded mx-auto d-block'>";
+    var imagen = "<img src='"+noticia.Imagen+"' alt='"+noticia.Titulo+"' class='articleImg rounded mx-auto d-block pull-left'>";
     entradilla.append(imagen);
 
     var article = $("<article/>");
@@ -85,10 +110,10 @@ function prepararEntradilla(noticia) {
     
     var textoEntradilla = $("</p>").append(noticia.Entradilla).addClass("text-justify");
     textoEntradilla.appendTo(article);
-
+    article.addClass("col-xs-7")
     article.appendTo(entradilla);
 
-    $("main").append(entradilla);
+    $("main").append(entradilla.addClass("d-inline-block"));
 
 }
 

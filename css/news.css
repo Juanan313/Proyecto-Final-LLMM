@@ -5,7 +5,7 @@ body {
 /*-----MENU NAVEGACION/Header-----*/
 
 header{
-    height: 10vh;
+    height: 12vh;
     padding: 0px !important;
     
 }
@@ -15,7 +15,8 @@ header h1{
     color: rgba(0, 0, 0, 0.808);
     /*-----TextShadow para hacer el efecto contorno de las letras del titulo-----*/
     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-    margin-bottom: 0px !important;
+    margin: 0px !important;
+    padding: 15px 10px 10px;
 }
 
 /* #menuNav{
@@ -29,11 +30,10 @@ header h1{
 /* --- Menu Navegación ---*/
 
 #menuNav{
-    padding: 0px;
     margin: 0px;
     background: rgba(101, 117, 160, 0.863);
     font-family: 'acmesa';
-    font-size: 13px;
+    border-radius: 0;
 }
 
 #menuNav ul{
@@ -49,10 +49,10 @@ header h1{
 #menuNav ul li a{
     color: white;
     display: block;
-    height: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
     text-decoration: none;
+    padding: 10px;
 
 }
 
@@ -61,6 +61,7 @@ header h1{
     padding-left: 25px;
     padding-right: 25px;
     transition: all 300ms;
+    border-radius: 5%;
 }
 
 .linkActivo{
@@ -75,17 +76,26 @@ header h1{
 
 /*---- ASIEDE / Anuncios -----*/
 #anuncios {
-    background: url(../src/img/doodles\ gaming.jpg);
+    /* background: url(../src/img/doodles\ gaming.jpg); */
+    background: url(https://elandroidelibre.elespanol.com/wp-content/uploads/2015/08/HomerPage.gif);
     background-size: 100%;
     height: 44vh;
-    top: 170px;
-    border-radius: 5px;
+    top: 300px;
+    right: 0px;
+    position: fixed;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
     color: yellow;
+    padding: 0px !important;
     text-shadow: 2px 2px 0px black;
 }
 
 .rowFix {
     margin: 0px !important;
+}
+
+#loading {
+    display: none;
 }
 
 
@@ -109,6 +119,11 @@ section {
     box-shadow: 2px 3px 2px gray;
 }
 
+section p {
+    padding: 5px;
+    margin: 5px;
+}
+
  h2.tituloNoticia{
     /* top: 600px; */
     /* position: relative; */
@@ -117,12 +132,19 @@ section {
     background-color: #80808042;
     padding: 5px;
     margin-right: 15px;
+    border-top-left-radius: 1% 50%;
+    border-bottom-right-radius: 50% 100%;
+
 } 
 
 .articleImg{
     width: 35%;
     margin-bottom: 15px !important;
     margin-top: 15px !important;
+}
+
+.cabecera {
+    display: none;
 }
 .image-container{text-align:center}
 
@@ -138,6 +160,49 @@ section {
     font-family: 'acmesa';
     font-weight: normal;
     src: url('./fonts/acmesa.TTF');
+}
+
+/* ----- Carousel -----*/
+
+.myCarousel {
+    max-height: 30vh;
+    min-width: 80%;
+    margin: auto;
+    object-fit: cover;
+    border-bottom-right-radius: 8% 30%;
+    border-top-left-radius: 8% 30%;
+}
+
+.contenedorCarousel {
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    border-bottom-right-radius: 8% 30%;
+    border-top-left-radius: 8% 30%;
+    border: solid 2px gray;
+    padding: 0px !important;
+    background-color: rgba(7, 7, 7, 0.493);
+}
+
+.carousel-control {
+    border-bottom-right-radius: 45% 30%;
+    border-top-left-radius: 45% 30%;
+}
+
+/* ---BUTTON ---*/
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    bottom: 0px;
 }
 
 /* ----- MEDIAQUERIES ----- */
@@ -160,12 +225,40 @@ section {
     #anuncios{
         /* height: auto; */
         /* margin: 0px; */
+        display: none;
     }
+
+    .lb-md {
+        font-size: 20px !important;
+      }
+      
+
+    /* --- Carousel ---*/
+
+    .myCarousel {
+        border-bottom-right-radius: 0%;
+        border-top-left-radius: 0%;
+    }
+    
+    .contenedorCarousel {
+        border-bottom-right-radius: 0%;
+        border-top-left-radius: 0%;
+    }
+    
+    .carousel-control {
+        border-bottom-right-radius: 0%;
+        border-top-left-radius: 0%;
+    }
+
 }
 
 @media only screen and (min-width: 650px) {
     /* For tablets: */
-    
+    #anuncios{
+        /* height: auto; */
+        /* margin: 0px; */
+        display: none;
+    }
 }
 @media only screen and (min-width: 768px) {
     /* For desktop: */
