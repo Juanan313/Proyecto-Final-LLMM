@@ -2,7 +2,7 @@
 "Noticias" : [
     {
     "idNoticia": 1,
-    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días",
+    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 1",
     "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",
     "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
     "Fecha": "06/05/2018",
@@ -17,7 +17,7 @@
 }  ,
 {
     "idNoticia": 1,
-    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días",
+    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 2",
     "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",
     "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
     "Fecha": "06/05/2018",
@@ -32,7 +32,7 @@
 } ,
 {
     "idNoticia": 1,
-    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días",
+    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 3",
     "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",  
     "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
     "Fecha": "06/05/2018",
@@ -44,6 +44,96 @@
         "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
     "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
-} 
+},
+{
+    "idNoticia": 1,
+    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 4",
+    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",  
+    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
+    "Fecha": "06/05/2018",
+    "Autor": "M.Méndez",
+    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
+    "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
+    "Video": {
+        "boolean" : true,
+        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+    },
+    "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
+},
+{
+    "idNoticia": 1,
+    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 5",
+    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",  
+    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
+    "Fecha": "06/05/2018",
+    "Autor": "M.Méndez",
+    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
+    "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
+    "Video": {
+        "boolean" : true,
+        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+    },
+    "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
+},
+{
+    "idNoticia": 1,
+    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 6",
+    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",  
+    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
+    "Fecha": "06/05/2018",
+    "Autor": "M.Méndez",
+    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
+    "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
+    "Video": {
+        "boolean" : true,
+        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+    },
+    "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
+},
+{
+    "idNoticia": 1,
+    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 7",
+    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",  
+    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
+    "Fecha": "06/05/2018",
+    "Autor": "M.Méndez",
+    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
+    "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
+    "Video": {
+        "boolean" : true,
+        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+    },
+    "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
+} ,
+{
+    "idNoticia": 1,
+    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 8",
+    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",  
+    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
+    "Fecha": "06/05/2018",
+    "Autor": "M.Méndez",
+    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
+    "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
+    "Video": {
+        "boolean" : true,
+        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+    },
+    "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
+},
+{
+    "idNoticia": 1,
+    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 9",
+    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",  
+    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
+    "Fecha": "06/05/2018",
+    "Autor": "M.Méndez",
+    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
+    "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
+    "Video": {
+        "boolean" : true,
+        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+    },
+    "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
+}
 ]
 }
