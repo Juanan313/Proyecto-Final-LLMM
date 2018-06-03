@@ -109,7 +109,7 @@ function prepararEntradilla(noticia) {
     var titulo = $("<h2/>").addClass("tituloNoticia").append("<strong>"+noticia.Titulo+"</strong>");
     titulo.appendTo(entradilla);
 
-    var fecha = $("<div/>").addClass("fechaNoticia lb-md").append($("</p>").append(noticia.Fecha+"/ "+noticia.Autor).addClass("label label-default"));
+    var fecha = $("<div/>").addClass("fechaNoticia lb-md").append($("</p>").append(noticia.Autor+"/ "+noticia.Fecha).addClass("label label-default"));
     fecha.appendTo(entradilla);
     
     var imagen = "<img src='"+noticia.Imagen+"' alt='"+noticia.Titulo+"' class='articleImg rounded mx-auto d-block pull-left'>";
@@ -124,6 +124,8 @@ function prepararEntradilla(noticia) {
     textoEntradilla.appendTo(article);
     article.addClass("col-md-7 col-xs-12")
     article.appendTo(entradilla);
+
+    var referencia = "<a href='"+noticia.referencia+"'></a>"
 
     $("main").append(entradilla.addClass("d-inline-block"));
 

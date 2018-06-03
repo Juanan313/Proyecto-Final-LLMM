@@ -19,6 +19,10 @@ header h1{
     padding: 15px 10px 10px;
 }
 
+.geek {
+    font-family: "AVENGEANCE MIGHTIEST AVENGER";
+}
+
 /* #menuNav{
     font-family: 'acmesa';
     float: right;
@@ -96,12 +100,12 @@ footer ul li a {
 #anuncios {
     /* background: url(../src/img/doodles\ gaming.jpg); */
     background: url(https://elandroidelibre.elespanol.com/wp-content/uploads/2015/08/HomerPage.gif);
-    background-size: 100%;
+    background-size: 175%;
     height: 44vh;
     top: 300px;
     right: 0px;
     position: fixed;
-    border-top-left-radius: 10%;
+    border: 2px solid silver;
     border-bottom-left-radius: 10%;
     color: yellow;
     padding: 0px !important;
@@ -163,6 +167,7 @@ section p {
     width: 35%;
     margin-bottom: 15px !important;
     margin-top: 15px !important;
+    border: 1px solid gray;
 }
 
 .cabecera {
@@ -191,6 +196,7 @@ section p {
     min-width: 80%;
     margin: auto;
     object-fit: cover;
+    object-position: 50% 25%;
     border-bottom-right-radius: 8% 30%;
     border-top-left-radius: 8% 30%;
 }
@@ -212,7 +218,18 @@ section p {
 }
 
 .tituloDestacas {
-    z-index: 1;
+    z-index: 10;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    word-wrap: break-word;
+    width: 35%;
+}
+
+.item img {
+    position: relative;
 }
 
 /* ---BUTTON ---*/

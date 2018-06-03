@@ -13,7 +13,10 @@
         "boolean" : true,
         "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
-    "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
+    "Referencia": {
+        "url":"https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html",
+        "pagina": "As.com /tikitakas"
+    }
 }  ,
 {
     "idNoticia": 2,
@@ -28,7 +31,10 @@
         "boolean" : false,
         "url" : ""
     },
-    "Referencia": "http://www.sensacine.com/noticias/cine/noticia-18568340/"
+    "Referencia": {
+        "url":"http://www.sensacine.com/noticias/cine/noticia-18568340/",
+        "pagina": "Sensacine"
+    }
 } ,
 {
     "idNoticia": 3,
@@ -43,12 +49,15 @@
         "boolean" : false,
         "url" : ""
     },
-    "Referencia": "http://www.bbc.com/mundo/noticias-44290222"
+    "Referencia": {
+        "url":"http://www.bbc.com/mundo/noticias-44290222",
+        "pagina": "BBC mundo Noticias"
+    }
 },
 {
     "idNoticia": 4,
     "Titulo": "Fallout 76 prepara su campaña publicitaria para el E3 2018",
-    "PostTiutlo": "Bethesda apuesta fuerta por el E3 de este año",  
+    "PostTiutlo": "Bethesda apuesta fuerte por el E3 de este año",  
     "Entradilla": "Bethesda parece que va a apostar fuerte por el E3 2018 pues está colocando publicidad de forma estratégica en Los Ángeles: este año ocupan uno de los lugares más costosos de la zona de celebración del hotel con carteles gigantes de Fallout 76 en el Hotel Figueroa.<br/> Por la localización de este hotel y el inmenso tamaño de la publicidad que se sitúa en su lateral, este es un lugar muy valioso para las compañías de videojuegos durante el periodo del E3 2018.",
     "Fecha": "03/06/2018",
     "Autor": "Daniel Escandell",
@@ -58,7 +67,10 @@
         "boolean" : true,
         "url" : "<iframe src='https://www.youtube.com/embed/cRcCDte0Hlc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
-    "Referencia": "https://vandal.elespanol.com/noticia/1350708344/fallout-76-prepara-su-campana-publicitaria-para-el-e3-2018/"
+    "Referencia": {
+        "url": "https://vandal.elespanol.com/noticia/1350708344/fallout-76-prepara-su-campana-publicitaria-para-el-e3-2018/",
+        "pagina" : "Vandal"
+    }
 },
 {
     "idNoticia": 5,
@@ -73,7 +85,10 @@
         "boolean" : false,
         "url" : ""
     },
-    "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
+    "Referencia": {
+        "url" : "http://rpp.pe/virales/comics/marvel-anuncio-nuevos-comics-de-los-avengers-prehistoricos-noticia-1115261",
+        "pagina" : "RPP noticias comics"
+    }
 },
 {
     "idNoticia": 6,
@@ -88,7 +103,10 @@
         "boolean" : false,
         "url" : ""
     },
-    "Referencia": "https://www.heraldo.es/noticias/aragon/2018/05/29/usar-videojuegos-aula-podria-beneficiar-rendimiento-escolar-1246308-300.html"
+    "Referencia": {
+        "url":"https://www.heraldo.es/noticias/aragon/2018/05/29/usar-videojuegos-aula-podria-beneficiar-rendimiento-escolar-1246308-300.html",
+        "pagina": "Heraldo, aragón"
+    }
 },
 {
     "idNoticia": 7,
@@ -103,7 +121,10 @@
         "boolean" : false,
         "url" : ""
     },
-    "Referencia": "https://ludonoticias.com/2018/05/29/shadowrun-crossfire-catalyst-nueva-edicion/"
+    "Referencia": {
+        "url":"https://ludonoticias.com/2018/05/29/shadowrun-crossfire-catalyst-nueva-edicion/",
+        "pagina": "Ludonoticias"
+    }
 } ,
 {
     "idNoticia": 8,
@@ -118,7 +139,10 @@
         "boolean" : true,
         "url" : "<iframe src='https://www.youtube.com/embed/Kd-dju1nJ4c' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
-    "Referencia": "https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html"
+    "Referencia": {
+        "url":"https://vandal.elespanol.com/noticia/1350708336/la-final-de-la-overwatch-league-agota-sus-entradas/",
+        "pagina": "Vandal"
+    }
 },
 {
     "idNoticia": 9,
@@ -133,7 +157,10 @@
         "boolean" : true,
         "url" : "<iframe src=\"https://www.youtube.com/embed/7831NGClsrM\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
     },
-    "Referencia": "http://www.abc.es/tecnologia/redes/abci-cambridge-analytica-eres-usuario-facebook-pide-200-euros-para-demanda-colectiva-201805301601_noticia.html"
+    "Referencia": {
+        "url":"http://www.abc.es/tecnologia/redes/abci-cambridge-analytica-eres-usuario-facebook-pide-200-euros-para-demanda-colectiva-201805301601_noticia.html",
+        "pagina":"ABC"
+    }
 }
 ]
 }
