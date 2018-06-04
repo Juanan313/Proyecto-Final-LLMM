@@ -14,7 +14,9 @@ El fondo probablemente sea uno fijo estilo whatsapp, o lo que es lo mismo doodle
 
 *El tema de la página:* GEEKNEWS una pagina de noticias geek, o lo que es lo mismo frikadas desde el mundo del cine, cómic y videojuegos a infórmatica general, todo lo que pueda ser noticia para el secto más Geek.
 
+### Boceto del proyect:
 
+![Boceto del proyecto](https://cdn.rawgit.com/Juanan313/Proyecto-Final-LLMM/master/src/bocetoProyectoLLMM.jpg)
 
 ---
 ## *Enunciado del proyecto*
