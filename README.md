@@ -1,6 +1,7 @@
 # Proyecto-Final-LLMM
 Este repositorio contiene el proyecto final de la asignatura de Lenguaje de marcas, FP DAW dual.
 ---
+[logoProyecto](https://cdn.rawgit.com/Juanan313/Proyecto-Final-LLMM/master/src/img/GeekNews.png)
 [Página del proyecto](https://cdn.rawgit.com/Juanan313/Proyecto-Final-LLMM/master/news.html)
 ---
 ## *Documentación del proyecto*
