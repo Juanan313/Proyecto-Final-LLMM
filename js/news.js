@@ -64,6 +64,11 @@ window.onload = function () {
         cargarNoticias();
     })
 
+    $("#hamburguerMenu").on("click", function(){
+        $("#menuNav").toggle();
+        $("#contenedorCarousel").toggleClass("margenXs", 1000);
+    })
+
 
 };
 
@@ -91,7 +96,9 @@ function cargarNoticias() {
         if (!cargar2Json) {
             var noticia = NOTICIAS[proximaNoticia];
             prepararEntradilla(noticia);
-            crearDialogos(noticia.idNoticia, noticia.Titulo, noticia.Autor, noticia.Fecha, noticia.Imagen, noticia.PostTiutlo, noticia.Noticia);
+            crearDialogos(noticia.idNoticia, noticia.Titulo, noticia.Autor, noticia.Fecha,
+                 noticia.Imagen, noticia.PostTiutlo, noticia.Noticia, noticia.Video,
+                noticia.Referencia);
         } else {
             prepararEntradilla(NOTICIAS2[proximaNoticia]);
         }
@@ -157,10 +164,14 @@ function prepararEntradilla(noticia) {
 function mostrarMas(noticia) {
     
     var idNoticia = "#idNoticia"+noticia.idNoticia;
+    var wWidth = $(window).width();
+    var dWidth = wWidth * 0.8;
+    var wHeight = $(window).height();
+    var dHeight = wHeight * 0.8;
     $(idNoticia).dialog({
-        title: noticia.Titulo,
-        width: 1000,
-        height: 850,
+        title: "Noticia con id: "+noticia.idNoticia,
+        width: dWidth,
+        height: dHeight,
         // show: {
         // effect: "slide",
         // duration: 1500
@@ -172,9 +183,9 @@ function mostrarMas(noticia) {
    }).dialog("open");
 }
 
-function crearDialogos(id, Titulo, Autor, Fecha, Imagen,PostTiutlo,Noticia) {
+function crearDialogos(id, Titulo, Autor, Fecha, Imagen,PostTiutlo,Noticia, Video, Referencia) {
     
-   var dialog = $("<div/>").attr("id", "idNoticia"+id);
+   var dialog = $("<div/>").attr("id", "idNoticia"+id).addClass("dialogNoticia");
    
    var noticia = $("<section/>");
     
@@ -192,10 +203,17 @@ function crearDialogos(id, Titulo, Autor, Fecha, Imagen,PostTiutlo,Noticia) {
     var postTitulo = $("<h3/>").append(PostTiutlo);
     postTitulo.appendTo(article);
     
+    
     var textoNoticia = $("</p>").html(Noticia).addClass("text-justify");
     textoNoticia.appendTo(article);
-    // var referencia = "<a href='"+noticia.Referencia.url+"'>"+noticia.Referencia.pagina+"</a>"
-    // $("<p>Referencia: "+referencia+"</p>").appendTo(article);
+
+    if (Video.boolean) {
+        
+         $(Video.url).addClass("videoNoticia").appendTo(article);
+     }
+ 
+    var referencia = "<a href='"+Referencia.url+"'>"+Referencia.pagina+"</a>"
+    $("<p>Referencia: "+referencia+"</p>").appendTo(article);
     article.appendTo(noticia);
     noticia.appendTo(dialog);
 
