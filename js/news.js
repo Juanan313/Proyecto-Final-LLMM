@@ -89,7 +89,9 @@ function cargarNoticias() {
 
     while (proximaNoticia < contadorNoticias && i < NOTICIAS_POR_CARGA ) {
         if (!cargar2Json) {
-            prepararEntradilla(NOTICIAS[proximaNoticia]);
+            var noticia = NOTICIAS[proximaNoticia];
+            prepararEntradilla(noticia);
+            crearDialogos(noticia.idNoticia, noticia.Titulo, noticia.Autor, noticia.Fecha, noticia.Imagen, noticia.PostTiutlo, noticia.Noticia);
         } else {
             prepararEntradilla(NOTICIAS2[proximaNoticia]);
         }
@@ -146,19 +148,19 @@ function prepararEntradilla(noticia) {
     botonDialog.appendTo(article);
     article.appendTo(entradilla);
 
+    // crearDialogos(noticia.idNoticia);
 
-    crearDialogos(noticia);
     $("main").append(entradilla.addClass("d-inline-block"));
 
 }
 
 function mostrarMas(noticia) {
-    var noticiaTxt = $("<p/>").append(noticia.Noticia);
-    var idNoticia = "#idNoticias"+noticia.idNoticia;
+    
+    var idNoticia = "#idNoticia"+noticia.idNoticia;
     $(idNoticia).dialog({
         title: noticia.Titulo,
-        width: 500,
-        height: 300,
+        width: 1000,
+        height: 850,
         // show: {
         // effect: "slide",
         // duration: 1500
@@ -170,31 +172,31 @@ function mostrarMas(noticia) {
    }).dialog("open");
 }
 
-function crearDialogos(noticia) {
-   var dialog = $("<div/>").attr("id", "idNoticia"+noticia.idNoticia);
-   
-   var noticia = $("<section></section>");
+function crearDialogos(id, Titulo, Autor, Fecha, Imagen,PostTiutlo,Noticia) {
     
-    var titulo = $("<h2/>").addClass("tituloNoticia").append("<strong>"+noticia.Titulo+"</strong>");
+   var dialog = $("<div/>").attr("id", "idNoticia"+id);
+   
+   var noticia = $("<section/>");
+    
+    var titulo = $("<h2/>").addClass("tituloNoticia").append("<strong>"+Titulo+"</strong>");
     titulo.appendTo(noticia);
 
-    var fecha = $("<div/>").addClass("fechaNoticia lb-md").append($("</p>").append(noticia.Autor+"/ "+noticia.Fecha).addClass("label label-default"));
+    var fecha = $("<div/>").addClass("fechaNoticia lb-md").append($("</p>").append(Autor+"/ "+Fecha).addClass("label label-default"));
     fecha.appendTo(noticia);
     
-    var imagen = "<img src='"+noticia.Imagen+"' alt='"+noticia.Titulo+"' class='articleImg rounded mx-auto d-block pull-left'>";
+    var imagen = "<img src='"+Imagen+"' alt='"+Titulo+"' class='articleImg rounded mx-auto d-block pull-left'>";
     noticia.append(imagen);
 
     var article = $("<article/>");
 
-    var postTitulo = $("<h3/>").append(noticia.PostTiutlo);
+    var postTitulo = $("<h3/>").append(PostTiutlo);
     postTitulo.appendTo(article);
     
-    var textoNoticia = $("</p>").append(noticia.Noticia).addClass("text-justify");
+    var textoNoticia = $("</p>").html(Noticia).addClass("text-justify");
     textoNoticia.appendTo(article);
     // var referencia = "<a href='"+noticia.Referencia.url+"'>"+noticia.Referencia.pagina+"</a>"
     // $("<p>Referencia: "+referencia+"</p>").appendTo(article);
     article.appendTo(noticia);
-
     noticia.appendTo(dialog);
 
     dialog.appendTo("#dialog");
