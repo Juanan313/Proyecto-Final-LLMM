@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title> Geeks News </title>
+        <link> https://cdn.rawgit.com/Juanan313/Proyecto-Final-LLMM/master/news.html </link>
+        <description>
+            Noticias actualidad Geek: Cine, Series, Videojuegos, Tenologia...
+        </description>
+        <item>
+            <title> Geek News </title>
+            <link>https://cdn.rawgit.com/Juanan313/Proyecto-Final-LLMM/master/news.html</link>
+            <description>Noticias de la película: Ant-Man y la Avispa</description>
+        </item>
+        <item>
+            <title>Ant-Man y la Avispa</title>
+            <link>https://cdn.rawgit.com/Juanan313/Proyecto-Final-LLMM/master/news1.html</link>
+            <description>Noticias actualidad Geek: Cine, Series, Videojuegos, Tenologia...</description>
+            </item>
+        <item>
+            <title>Marvel's Spider-Man PS4</title>
+            <link>https://cdn.rawgit.com/Juanan313/Proyecto-Final-LLMM/master/news2.html</link>
+            <description>Noticias sobre el videojuego: Marvel's Spider-Man PS4</description>
+        </item>
+        <item>
+            <title>Avengers: Infinity War</title>
+            <link>https://cdn.rawgit.com/Juanan313/Proyecto-Final-LLMM/master/news3.html</link>
+            <description>Noticias sobre la película: Avengers: Infinity War</description>
+        </item>
+    </channel>
+</rss>
