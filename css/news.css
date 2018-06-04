@@ -291,6 +291,7 @@ section p {
 /* ---BUTTON ---*/
 
 .button {
+    font-family: 'acmesa';
     border: none;
     outline: 0;
     display: inline-block;

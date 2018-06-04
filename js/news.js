@@ -1,10 +1,12 @@
 // Variable constante donde se almacenarán los datos del json
 var NOTICIAS;
+var NOTICIAS2;
 var NOTICIAS_POR_CARGA = 3;
 var PAGINA;
 
 var proximaNoticia = 0;
 var primeraCarga = true;
+var cargar2Json = false;
 /*--- Función onload para cargar todo los eventos y las llamadas a las funciones -----*/
 window.onload = function () {
     // prueba de que jquery carga correctamente
@@ -23,9 +25,18 @@ window.onload = function () {
         }
     });
 
-    // $.getJSON("../src/noticias.json", function (data) {
-    //     NOTICIAS = data;
-    // });
+
+        $.ajax({
+            url: 'https://raw.githubusercontent.com/Juanan313/Proyecto-Final-LLMM/master/src/json/noticias2.json',
+            success: function (respuesta) {
+                NOTICIAS2 = JSON.parse(respuesta)["Noticias"];
+                console.log("Se han obtenido los datos");
+
+            },
+            error: function () {
+                console.log("No se ha podido obtener la información");
+            }
+        });
 
      jQuery(function () {
         var page = location.pathname.split('/').pop();
@@ -33,9 +44,6 @@ window.onload = function () {
         
      })
 
-    // $("#pobre").on("click", function () {
-    //     alert('ya no quedan más noticias');
-    // });
 
     // on scroll down 
     // $(document).scroll(function() {
@@ -78,8 +86,11 @@ function cargarNoticias() {
    
 
     while (proximaNoticia < contadorNoticias && i < NOTICIAS_POR_CARGA ) {
-
-        prepararEntradilla(NOTICIAS[proximaNoticia]);
+        if (!cargar2Json) {
+            prepararEntradilla(NOTICIAS[proximaNoticia]);
+        } else {
+            prepararEntradilla(NOTICIAS2[proximaNoticia]);
+        }
         
         i ++;
         proximaNoticia ++;
@@ -88,7 +99,14 @@ function cargarNoticias() {
     if (proximaNoticia >= contadorNoticias) {
         $("#loading").fadeIn();
         $("#loading").fadeOut();
+        cargar2Json = true;
+        
+        if (primeraCarga) {
+            proximaNoticia = 0;
+            primeraCarga = false;
+        }
     }
+
 }
 
 function prepararEntradilla(noticia) {
@@ -120,7 +138,7 @@ function prepararEntradilla(noticia) {
     article.appendTo(entradilla);
 
     
-    $("main").append(entradilla.addClass("d-inline-block"));
+    $("main").append(entradilla.addClass("d-inline-block").attr);
 
 }
 
