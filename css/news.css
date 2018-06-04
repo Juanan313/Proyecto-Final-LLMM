@@ -319,9 +319,13 @@ section p {
 }
 
 /*---- Estilo Popup -----*/
-
+.dialogNoticia {
+    /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgudFgzCp7MYoOF7GiyLa2cEUBh5qFagiR7sLkvbC8DjQ7ulOc) !important; */
+    background: url(http://www.modafinilsale.com/data/out/758/233362442-marvel-comic-book-wallpaper.jpg) !important;
+            
+}
 .dialogNoticia section {
-    background: url(../src/img/super_hero_whatsapp_background_by_x_ama-d8fr7iz.jpg);
+    background-color: rgba(255, 255, 255, 0.781);
 }
 /* ----- MEDIAQUERIES ----- */
 

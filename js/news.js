@@ -96,7 +96,7 @@ function cargarNoticias() {
         if (!cargar2Json) {
             var noticia = NOTICIAS[proximaNoticia];
             prepararEntradilla(noticia);
-            crearDialogos(noticia.idNoticia, noticia.Titulo, noticia.Autor, noticia.Fecha,
+            crearDialogos(noticia.idNoticia, noticia.Titulo, noticia.Entradilla, noticia.Autor, noticia.Fecha,
                  noticia.Imagen, noticia.PostTiutlo, noticia.Noticia, noticia.Video,
                 noticia.Referencia);
         } else {
@@ -183,7 +183,7 @@ function mostrarMas(noticia) {
    }).dialog("open");
 }
 
-function crearDialogos(id, Titulo, Autor, Fecha, Imagen,PostTiutlo,Noticia, Video, Referencia) {
+function crearDialogos(id, Titulo, Entradilla,Autor, Fecha, Imagen,PostTiutlo,Noticia, Video, Referencia) {
     
    var dialog = $("<div/>").attr("id", "idNoticia"+id).addClass("dialogNoticia");
    
@@ -192,11 +192,13 @@ function crearDialogos(id, Titulo, Autor, Fecha, Imagen,PostTiutlo,Noticia, Vide
     var titulo = $("<h2/>").addClass("tituloNoticia").append("<strong>"+Titulo+"</strong>");
     titulo.appendTo(noticia);
 
-    var fecha = $("<div/>").addClass("fechaNoticia lb-md").append($("</p>").append(Autor+"/ "+Fecha).addClass("label label-default"));
-    fecha.appendTo(noticia);
-    
-    var imagen = "<img src='"+Imagen+"' alt='"+Titulo+"' class='articleImg rounded mx-auto d-block pull-left col-sm-12'>";
-    noticia.append(imagen);
+    var textoEntradilla = $("</p>").append(Entradilla).addClass("text-justify");
+    textoEntradilla.appendTo(noticia);
+
+    var divImg = $("<div/>").addClass("col-xs-12").append("<div class='col-md-3'></div>");
+    var imagen = "<img src='"+Imagen+"' alt='"+Titulo+"' class='articleImg rounded mx-auto d-block pull-left col-sm-12 col-md-6 col-md-offset-3'>";
+    $(imagen).appendTo(divImg);
+    noticia.append(divImg);
 
     var article = $("<article/>");
 
@@ -211,10 +213,12 @@ function crearDialogos(id, Titulo, Autor, Fecha, Imagen,PostTiutlo,Noticia, Vide
         
          $(Video.url).addClass("videoNoticia").appendTo(article);
      }
- 
+    
     var referencia = "<a href='"+Referencia.url+"'>"+Referencia.pagina+"</a>"
     $("<p>Referencia: "+referencia+"</p>").appendTo(article);
     article.appendTo(noticia);
+    var fecha = $("<div/>").addClass("fechaNoticia lb-md").append($("</p>").append(Autor+"/ "+Fecha).addClass("label label-default"));
+    fecha.appendTo(noticia);
     noticia.appendTo(dialog);
 
     dialog.appendTo("#dialog");
