@@ -133,7 +133,7 @@ function prepararEntradilla(noticia) {
     var fecha = $("<div/>").addClass("fechaNoticia lb-md").append($("</p>").append(noticia.Autor+"/ "+noticia.Fecha).addClass("label label-default"));
     fecha.appendTo(entradilla);
     
-    var imagen = "<img src='"+noticia.Imagen+"' alt='"+noticia.Titulo+"' class='articleImg rounded mx-auto d-block pull-left'>";
+    var imagen = "<img src='"+noticia.Imagen+"' alt='"+noticia.Titulo+"' class='articleImg rounded mx-auto d-block pull-left col-sm-12 col-md-4'>";
     entradilla.append(imagen);
 
     var article = $("<article/>");
@@ -148,7 +148,7 @@ function prepararEntradilla(noticia) {
     $("<p>Referencia: "+referencia+"</p>").appendTo(article);
     
 
-    var botonDialog = $("<button/>").addClass("btn btn-sm btn-success pull-right ").attr("id", noticia.idNoticia).append("<i class='fa fa-plus'>Ver más</i>").on("click",function(){
+    var botonDialog = $("<button/>").addClass("btn btn-sm btn-success pull-right ").attr("id", noticia.idNoticia).append("<i class='fa fa-plus'>Lerr más</i>").on("click",function(){
         mostrarMas(NOTICIAS[noticia.idNoticia-1]);
     });
     
@@ -165,9 +165,9 @@ function mostrarMas(noticia) {
     
     var idNoticia = "#idNoticia"+noticia.idNoticia;
     var wWidth = $(window).width();
-    var dWidth = wWidth * 0.8;
+    var dWidth = wWidth * 0.9;
     var wHeight = $(window).height();
-    var dHeight = wHeight * 0.8;
+    var dHeight = wHeight * 0.9;
     $(idNoticia).dialog({
         title: "Noticia con id: "+noticia.idNoticia,
         width: dWidth,
@@ -195,7 +195,7 @@ function crearDialogos(id, Titulo, Autor, Fecha, Imagen,PostTiutlo,Noticia, Vide
     var fecha = $("<div/>").addClass("fechaNoticia lb-md").append($("</p>").append(Autor+"/ "+Fecha).addClass("label label-default"));
     fecha.appendTo(noticia);
     
-    var imagen = "<img src='"+Imagen+"' alt='"+Titulo+"' class='articleImg rounded mx-auto d-block pull-left'>";
+    var imagen = "<img src='"+Imagen+"' alt='"+Titulo+"' class='articleImg rounded mx-auto d-block pull-left col-sm-12'>";
     noticia.append(imagen);
 
     var article = $("<article/>");

@@ -1,55 +1,55 @@
 {
 "Noticias" : [
     {
-    "idNoticia": 1,
-    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 1",
-    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",
-    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
-    "Fecha": "06/05/2018",
-    "Autor": "M.Méndez",
-    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
-    "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
-    "Video": {
-        "boolean" : true,
-        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
-    },
-    "Referencia": {
-        "url":"https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html",
-        "pagina": "As.com /tikitakas"
-    }
+        "idNoticia": 4,
+        "Titulo": "Fallout 76 prepara su campaña publicitaria para el E3 2018",
+        "PostTiutlo": "Bethesda apuesta fuerte por el E3 de este año",  
+        "Entradilla": "Bethesda parece que va a apostar fuerte por el E3 2018 pues está colocando publicidad de forma estratégica en Los Ángeles: este año ocupan uno de los lugares más costosos de la zona de celebración del hotel con carteles gigantes de Fallout 76 en el Hotel Figueroa.<br/> Por la localización de este hotel y el inmenso tamaño de la publicidad que se sitúa en su lateral, este es un lugar muy valioso para las compañías de videojuegos durante el periodo del E3 2018.",
+        "Fecha": "03/06/2018",
+        "Autor": "Daniel Escandell",
+        "Noticia": "Bethesda parece que va a apostar fuerte por el E3 2018 pues está colocando publicidad de forma estratégica en Los Ángeles: este año ocupan uno de los lugares más costosos de la zona de celebración del hotel con carteles gigantes de Fallout 76 en el Hotel Figueroa.<br/> Por la localización de este hotel y el inmenso tamaño de la publicidad que se sitúa en su lateral, este es un lugar muy valioso para las compañías de videojuegos durante el periodo del E3 2018. La colocación de los carteles no ha concluido, pero varias fotos publicadas en internet muestran ya a Pip-Boy en plena acción. Fallout 76 será un juego de rol, supervivencia y construcción con fuertes elementos multijugador. Eso sí, por ahora la compañía no ha ofrecido excesiva información, por lo que habrá que estar atentos a los próximos anuncios que se realicen durante estas semanas.",
+        "Imagen": "https://media.vandal.net/i/640x360/6-2018/201863125831_1.jpg",
+        "Video": {
+            "boolean" : true,
+            "url" : "<iframe src='https://www.youtube.com/embed/cRcCDte0Hlc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+        },
+        "Referencia": {
+            "url": "https://vandal.elespanol.com/noticia/1350708344/fallout-76-prepara-su-campana-publicitaria-para-el-e3-2018/",
+            "pagina" : "Vandal"
+        }
     }  , {
-    "idNoticia": 1,
-    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 2",
-    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",
-    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
-    "Fecha": "06/05/2018",
-    "Autor": "M.Méndez",
-    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
-    "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
-    "Video": {
-        "boolean" : true,
-        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
-    },
-    "Referencia": {
-        "url":"https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html",
-        "pagina": "As.com /tikitakas"
-    } 
+        "idNoticia": 8,
+        "Titulo": "La final de la Overwatch League agota sus entradas",
+        "PostTiutlo": "La competición tendrá lugar en el Barclays Center de Nueva York.",  
+        "Entradilla": "<strong>Blizzard</strong> ha anunciado que las entradas para la final de la <strong>Overwatch</strong> League se han agotado. El evento tendrá lugar en el Barclays Center de Nueva York, el estadio de los Brooklyn Nets de la NBA. Con <strong>más de 20.000 entradas vendidas</strong>, es el mayor evento de eSports hasta el momento.",
+        "Fecha": "03/06/2018",
+        "Autor": "Daniel Escandell",
+        "Noticia": "Desde Blizzard han expresado su satisfacción. \"Sabíamos que los fans de la liga de Overwatch eran increíbles y entusiastas, pero esto es mucho más\", ha dicho Nat Nanzer, representante de la competición. Esperan que el evento tenga millones de espectadores en línea.",
+        "Imagen": "http://www.barclayscenter.com/assets/img/910x350-Overwatch-League-2018-ed08e0c550.jpg",
+        "Video": {
+            "boolean" : true,
+            "url" : "<iframe src='https://www.youtube.com/embed/Kd-dju1nJ4c' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+        },
+        "Referencia": {
+            "url":"https://vandal.elespanol.com/noticia/1350708336/la-final-de-la-overwatch-league-agota-sus-entradas/",
+            "pagina": "Vandal"
+        }
 }, {
-    "idNoticia": 1,
-    "Titulo": "Vengadores: Infinity War, 1.000 millones en 11 días 3",
-    "PostTiutlo": "La película del universo Marvel sigue rompiendo récords y alcanza los mil millones de recaudación en apenas 11 días en cines",
-    "Entradilla": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado <strong>Avengers: Infinity War</strong>. </br>La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia.",
-    "Fecha": "06/05/2018",
-    "Autor": "M.Méndez",
-    "Noticia": "En toda la historia del cine, jamás una película había logrado alcanzar la idílica barrera de los mil millones de dólares de recaudación en menos de dos semanas. Hasta que ha llegado Avengers: Infinity War. </br>  La reunión de casi todos los superhéroes de Marvel tenía unas expectativas altísimas, pero sorprendentemente las está superando todas, y sigue batiendo récords de taquilla que la sitúan como candidata a película más taquillera de la historia. <br/> <h3><strong>Rompe un récord tras otro</strong></h3> <hr/> El film, en el que los superhéroes de Marvel se unen contra Thanos para evitar que logre reunir las seis gemas del infinito, ya consiguió marcar el fin de semana de estreno más taquillero en la historia del cine, superando los 600 millones de dólares. <br/> Ahora, como decimos, ha superado a Star Wars: El despertar de la fuerza como la película que menos ha tardado en alcanzar los mil millones de recaudación, empleando apenas 11 días en lograrlo. <br/>",
-    "Imagen": "https://hipertextual.com/files/2018/04/avengers_infinity_war_joe_anthony_russo.jpg",
+    "idNoticia": 2,
+    "Titulo": "Stan Lee asegura que está a salvo tras haber sido amenazado en su casa",
+    "PostTiutlo": "El legendario creador de Marvel Studios tuvo que hacer frente a dos hombres armados.",
+    "Entradilla": "Los últimos meses están siendo complicados para Stan Lee, que no deja de protagonizar distintas noticias. La más reciente tiene que ver con un asalto que ha sufrido en su propio hogar, pues dos hombres armados lo amenazaron en su casa de Los Ángeles.",
+    "Fecha": "3/6/2018",
+    "Autor": "Elena Rodríguez",
+    "Noticia": "El mítico creador de diversos personajes de Marvel Studios, que también es conocido por los diversos cameos que realiza en los trabajos del UCM, como la reciente Vengadores: Infinity War, fue acosado cuando se encontraba en su residencia, según informa The Daily Mail, que explica que la policía recibió un aviso sobre las 7.30pm de la tarde del jueves 31. De esta manera, los dos atracadores fueron detenidos rápidamente, aunque se desconoce si han sido puestos en libertad después. Por su parte, un testigo asegura que los hombres reclamaban a Lee dinero de una supuesta deuda que tenía pendiente con ellos. Mientras los detalles del incidente están siendo investigados, la estrella ya ha compartido un vídeo en su recién recuperada cuenta de Twitter, en el que asegura que se encuentra perfectamente y agradece a los fans su preocupación y su apoyo, mostrado a través de miles de mensajes enviados en dicha red social. Además, este no es la primera vez que le sucede algo así este año, pues ya intentaron asaltar su hogar en abril. Por si fuera poco, en el último año ha tenido que hacer frente a la pérdida de su mujer y a los sucesivos escándalos que lo han seguido estos pasados meses, relacionados con sus problemas de salud y con supuestos abusos familiares. ",
+    "Imagen": "http://es.web.img3.acsta.net/newsv7/18/06/03/13/30/1821460.jpg",
     "Video": {
-        "boolean" : true,
-        "url" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/gQrkvZeE3Uc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+        "boolean" : false,
+        "url" : ""
     },
     "Referencia": {
-        "url":"https://as.com/tikitakas/2018/05/06/portada/1525599925_341096.html",
-        "pagina": "As.com /tikitakas"
-    } 
+        "url":"http://www.sensacine.com/noticias/cine/noticia-18568340/",
+        "pagina": "Sensacine"
+    }
 }
 ]}

@@ -178,9 +178,9 @@ section p {
 } 
 
 .articleImg{
-    width: 35%;
     margin-bottom: 15px !important;
     margin-top: 15px !important;
+    padding: 0px !important;
     border: 1px solid gray;
 }
 
@@ -312,9 +312,7 @@ section p {
 .margenXs {
     background: none !important;
     border: none !important;
-    top: 115px;
     position: relative;
-    margin-bottom: 90px;
 }
 
 /*---- Estilo Popup -----*/
@@ -337,6 +335,19 @@ section p {
 
     section {
         background-color: rgba(240, 248, 255, 0.603); 
+    }
+
+    header {
+        height: auto;
+    }
+
+    .contenedorCarousel {
+        margin-top: 0px;
+    }
+
+    h2.tituloNoticia {
+        font-family: 'acmesa' !important;
+        font-size: 18px;
     }
 
     #anuncios{
