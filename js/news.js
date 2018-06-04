@@ -142,18 +142,20 @@ function prepararEntradilla(noticia) {
     var botonDialog = $("<button/>").addClass("btn btn-sm btn-success pull-right ").attr("id", noticia.idNoticia).append("<i class='fa fa-plus'>Ver más</i>").on("click",function(){
         mostrarMas(NOTICIAS[noticia.idNoticia-1]);
     });
+    
     botonDialog.appendTo(article);
     article.appendTo(entradilla);
 
 
-    
+    crearDialogos(noticia);
     $("main").append(entradilla.addClass("d-inline-block"));
 
 }
 
 function mostrarMas(noticia) {
     var noticiaTxt = $("<p/>").append(noticia.Noticia);
-    $("#dialog").dialog({
+    var idNoticia = "#idNoticias"+noticia.idNoticia;
+    $(idNoticia).dialog({
         title: noticia.Titulo,
         width: 500,
         height: 300,
@@ -165,6 +167,35 @@ function mostrarMas(noticia) {
         //     duration: 1000
         // }
 
-   }).text(noticia.Noticia).dialog("open");
+   }).dialog("open");
 }
 
+function crearDialogos(noticia) {
+   var dialog = $("<div/>").attr("id", "idNoticia"+noticia.idNoticia);
+   
+   var noticia = $("<section></section>");
+    
+    var titulo = $("<h2/>").addClass("tituloNoticia").append("<strong>"+noticia.Titulo+"</strong>");
+    titulo.appendTo(noticia);
+
+    var fecha = $("<div/>").addClass("fechaNoticia lb-md").append($("</p>").append(noticia.Autor+"/ "+noticia.Fecha).addClass("label label-default"));
+    fecha.appendTo(noticia);
+    
+    var imagen = "<img src='"+noticia.Imagen+"' alt='"+noticia.Titulo+"' class='articleImg rounded mx-auto d-block pull-left'>";
+    noticia.append(imagen);
+
+    var article = $("<article/>");
+
+    var postTitulo = $("<h3/>").append(noticia.PostTiutlo);
+    postTitulo.appendTo(article);
+    
+    var textoNoticia = $("</p>").append(noticia.Noticia).addClass("text-justify");
+    textoNoticia.appendTo(article);
+    // var referencia = "<a href='"+noticia.Referencia.url+"'>"+noticia.Referencia.pagina+"</a>"
+    // $("<p>Referencia: "+referencia+"</p>").appendTo(article);
+    article.appendTo(noticia);
+
+    noticia.appendTo(dialog);
+
+    dialog.appendTo("#dialog");
+}
