@@ -43,7 +43,7 @@ window.onload = function () {
         PAGINA = page;
         
      })
-
+     $("#dialog").dialog({autoOpen: false});
 
     // on scroll down 
     // $(document).scroll(function() {
@@ -63,6 +63,8 @@ window.onload = function () {
     $("#cargarMas").on("click", function() {
         cargarNoticias();
     })
+
+
 };
 
 /* ---- TRATAR DATOS JSON ----*/
@@ -135,10 +137,34 @@ function prepararEntradilla(noticia) {
     article.addClass("col-md-7 col-xs-12")
     var referencia = "<a href='"+noticia.Referencia.url+"'>"+noticia.Referencia.pagina+"</a>"
     $("<p>Referencia: "+referencia+"</p>").appendTo(article);
+    
+
+    var botonDialog = $("<button/>").addClass("btn btn-sm btn-success pull-right ").attr("id", noticia.idNoticia).append("<i class='fa fa-plus'>Ver más</i>").on("click",function(){
+        mostrarMas(NOTICIAS[noticia.idNoticia-1]);
+    });
+    botonDialog.appendTo(article);
     article.appendTo(entradilla);
 
-    
-    $("main").append(entradilla.addClass("d-inline-block").attr);
 
+    
+    $("main").append(entradilla.addClass("d-inline-block"));
+
+}
+
+function mostrarMas(noticia) {
+    var noticiaTxt = $("<p/>").append(noticia.Noticia);
+    $("#dialog").dialog({
+        title: noticia.Titulo,
+        width: 500,
+        height: 300,
+        // show: {
+        // effect: "slide",
+        // duration: 1500
+        // }, hide: {
+        //     effect: "fade",
+        //     duration: 1000
+        // }
+
+   }).text(noticia.Noticia).dialog("open");
 }
 
